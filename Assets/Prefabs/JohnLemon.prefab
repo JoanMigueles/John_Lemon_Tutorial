@@ -934,6 +934,7 @@ MonoBehaviour:
   boostedSpeed: 3
   boostDuration: 3
   boostCooldown: 6
+  boostSound: {fileID: 8300000, guid: d317a4939fe651640922d14b30d5fa7e, type: 3}
 --- !u!82 &2183160436521106890
 AudioSource:
   m_ObjectHideFlags: 0

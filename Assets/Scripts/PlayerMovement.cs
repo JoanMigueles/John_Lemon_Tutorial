@@ -11,6 +11,7 @@ public class PlayerMovement : MonoBehaviour
     public float boostedSpeed = 5f;
     public float boostDuration = 3f;
     public float boostCooldown = 6f;
+    public AudioClip boostSound;
 
     Animator m_Animator;
     Rigidbody m_Rigidbody;
@@ -38,6 +39,7 @@ public class PlayerMovement : MonoBehaviour
             isRunning = true;
             boostTimer = boostDuration;
             cooldownTimer = boostCooldown;
+            m_AudioSource.PlayOneShot(boostSound);
         }
 
         if (cooldownTimer > 0f)
