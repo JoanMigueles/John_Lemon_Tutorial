@@ -930,6 +930,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turnSpeed: 20
+  moveSpeed: 1
+  boostedSpeed: 3
+  boostDuration: 3
+  boostCooldown: 6
 --- !u!82 &2183160436521106890
 AudioSource:
   m_ObjectHideFlags: 0

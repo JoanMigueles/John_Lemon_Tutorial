@@ -1412,6 +1412,7 @@ GameObject:
   - component: {fileID: 3674741053515830004}
   - component: {fileID: 3674741053515830005}
   - component: {fileID: 3674741053515829770}
+  - component: {fileID: 5386239331801681549}
   m_Layer: 0
   m_Name: Floor_Bathroom
   m_TagString: Untagged
@@ -1506,6 +1507,25 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &5386239331801681549
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3674741053515829768}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_OverrideArea: 1
+  m_Area: 1
+  m_OverrideGenerateLinks: 0
+  m_GenerateLinks: 0
+  m_IgnoreFromBuild: 0
+  m_ApplyToChildren: 1
+  m_AffectedAgents: ffffffff
 --- !u!1 &3674741053580011737
 GameObject:
   m_ObjectHideFlags: 0
@@ -43096,7 +43116,11 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 100000, guid: 4aa23393587d7204bbc9f4a30599bf61,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 6251919040828105044}
   m_SourcePrefab: {fileID: 100100000, guid: 4aa23393587d7204bbc9f4a30599bf61, type: 3}
 --- !u!4 &3674741054487687434 stripped
 Transform:
@@ -43104,6 +43128,31 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 3674741054488079242}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &3674741054488177962 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: 4aa23393587d7204bbc9f4a30599bf61,
+    type: 3}
+  m_PrefabInstance: {fileID: 3674741054488079242}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &6251919040828105044
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3674741054488177962}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_OverrideArea: 0
+  m_Area: 0
+  m_OverrideGenerateLinks: 0
+  m_GenerateLinks: 0
+  m_IgnoreFromBuild: 1
+  m_ApplyToChildren: 1
+  m_AffectedAgents: ffffffff
 --- !u!1001 &3674741054495022694
 PrefabInstance:
   m_ObjectHideFlags: 0
